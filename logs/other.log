@@ -1,0 +1,41 @@
+2014-09-10T11:50:18Z other.component1: Internet Systems Consortium DHCP Client 4.0.0vmw-26170
+2014-09-10T11:50:18Z other.component1: Copyright (c) 2008-2009 VMware, Inc. All rights reserved.
+2014-09-10T11:50:18Z other.component1: All rights reserved.
+2014-09-10T11:50:18Z other.component1: For info, please visit http://www.isc.org/sw/dhcp/
+2014-09-10T11:50:18Z other.component1: 2014-09-10T11:50:18Z other.component1: Setting retry timeout to 90 seconds
+2014-09-10T11:50:18Z other.component1: Sending option dhcp-client-identifier, value 0xffd9cdc1 (7)
+2014-09-10T11:50:19Z other.component1: Listening on PF_PACKET/vmk0
+2014-09-10T11:50:19Z other.component1: Sending on   PF_PACKET/vmk0
+2014-09-10T11:50:22Z other.component1: DHCPDISCOVER on vmk0 to 255.255.255.255 port 67 interval 4
+2014-09-10T11:50:22Z other.component1: DHCPOFFER from 10.194.170.1
+2014-09-10T11:50:22Z other.component1: DHCPREQUEST on vmk0 to 255.255.255.255 port 67
+2014-09-10T11:50:22Z other.component1: DHCPACK from 10.194.170.1
+2014-09-10T11:50:22Z other.component1: ipv4: Setting address: 10.194.170.136/255.255.254.0
+2014-09-10T11:50:22Z other.component1: GetManagementInterface: Tagging vmk0 as Management
+2014-09-10T11:50:22Z other.component1: SetTaggedManagementInterface: Writing vmk0 to the ManagementIface node
+2014-09-10T11:50:22Z other.component1: ipv4: Bounding to DHCP server: 10.140.185.10
+2014-09-10T11:50:22Z other.component1: GetManagementInterface: Tagging vmk0 as Management
+2014-09-10T11:50:22Z other.component1: SetTaggedManagementInterface: Writing vmk0 to the ManagementIface node
+2014-09-10T11:50:22Z other.component1: ipv4: Setting default gateway: 10.194.170.1
+2014-09-10T11:50:22Z other.component1: dns: Setting domain name and domain search: europe.intranet
+2014-09-10T11:50:22Z other.component1: NotifyVmsyslogd: Notifying the vmsyslogd of configuration change
+2014-09-10T11:50:22Z other.component1: dns: Adding nameserver: 10.255.254.1
+2014-09-10T11:50:22Z other.component1: dns: Adding nameserver: 10.255.254.3
+2014-09-10T11:50:22Z other.component1: dns: Resolving PTR for 10.194.170.136 ... succeded
+2014-09-10T11:50:22Z other.component1: dns: Setting hostname: spnlvdc30461
+2014-09-10T11:50:22Z other.component1: NotifyVmsyslogd: Notifying the vmsyslogd of configuration change
+2014-09-10T11:50:22Z other.component1: bound to 10.194.170.136 -- renewal in 232531 seconds.
+2014-09-10T11:50:22Z other.component1: Disabling input on Socket/vmk0
+2014-09-10T11:50:22Z other.component1: Listening on PF_INET/vmk0
+2014-09-10T11:50:22Z other.component1: Disabling output on Socket/vmk0
+2014-09-10T11:50:22Z other.component1: Sending on   PF_INET/vmk0
+2014-09-10T11:57:13Z other.component2: Internet Systems Consortium DHCP Client 4.0.0vmw-26170
+2014-09-10T11:57:13Z other.component2: Copyright (c) 2008-2009 VMware, Inc. All rights reserved.
+2014-09-10T11:57:13Z other.component2: All rights reserved.
+2014-09-10T11:57:13Z other.component2: For info, please visit http://www.isc.org/sw/dhcp/
+2014-09-10T11:57:13Z other.component2: 2014-09-10T11:57:13Z other.component2: Found instance 17113
+2014-09-10T11:57:14Z other.component2: Instance 17113 terminated
+2014-09-10T11:57:14Z other.component2: Sending option dhcp-client-identifier, value 0xffdbddd1 (7)
+2014-09-10T11:57:14Z other.component2: Listening on PF_INET/vmk0
+2014-09-10T11:57:14Z other.component2: Sending on   PF_INET/vmk0
+2014-09-10T11:57:14Z other.component2: DHCPRELEASE on vmk0 to 10.140.185.10 port 67

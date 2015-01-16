@@ -1,0 +1,129 @@
+2014-09-10T11:49:44Z application_1: [16899] Begin '/usr/lib/vmware/vob/bin/vobd ++min=0,max=100,group=uwdaemons', min-uptime = 60, max-quick-failures = 1, max-total-failures = 1000000, bg_pid_file = ''
+2014-09-10T11:49:45Z application_1: Executing '/usr/lib/vmware/vob/bin/vobd ++min=0,max=100,group=host/vim/vmvisor/uwdaemons'
+2014-09-10T11:49:45Z application_2: restoring configuration
+2014-09-10T11:49:45Z application_2: extracting from file /stateless.tgz
+2014-09-10T11:49:45Z application_2: failed to stat file etc/rc.local.d/
+2014-09-10T11:49:45Z application_2: failed to stat file etc/vmware/license.cfg
+2014-09-10T11:49:45Z application_2: failed to stat file etc/random-seed
+2014-09-10T11:49:45Z application_2: failed to stat file etc/rc.local.d/waiter-notify
+2014-09-10T11:49:45Z application_2: failed to stat file etc/vmware/firewall/autodeploy.xml
+2014-09-10T11:49:45Z application_2: failed to stat file etc/vmware/extensions.xml
+2014-09-10T11:49:45Z application_2: failed to stat file sbin/generate-certificates
+2014-09-10T11:49:45Z application_2: failed to stat file sbin/generate-certificates.sh
+2014-09-10T11:49:45Z application_2: failed to stat file etc/vmware/ssl/rui.crt
+2014-09-10T11:49:45Z application_2: failed to stat file etc/vmware/ssl/rui.key
+2014-09-10T11:49:45Z application_2: ConfigCheck: marking depricatePrettyName as run
+2014-09-10T11:49:45Z application_2: ConfigCheck: converting module lines
+2014-09-10T11:49:45Z application_2: ConfigCheck: marking moduleLineReformat as run
+2014-09-10T11:49:45Z application_2: ConfigCheck: enabling TSO on all NIC policies
+2014-09-10T11:49:45Z application_2: ConfigCheck: marking enableTSO310 as run
+2014-09-10T11:49:45Z application_2: ConfigCheck: marking persistVmkNicName as run
+2014-09-10T11:49:45Z application_2: ConfigCheck: marking enablePCISegments as run
+2014-09-10T11:49:45Z application_2: ConfigCheck: removing .o from module lines
+2014-09-10T11:49:45Z application_2: ConfigCheck: marking moduleDotORemove as run
+2014-09-10T11:49:45Z application_2: ConfigCheck: marking portMPClaimRules as run
+2014-09-10T11:49:46Z application_2: ConfigCheck: marking secpolicyMappings as run
+2014-09-10T11:49:46Z application_2: Util: tcpip IPv6 admin state not set
+2014-09-10T11:49:46Z application_2: Util: New install enabling IPv6
+2014-09-10T11:49:46Z application_2: ConfigCheck: marking setIpv6Default as run
+2014-09-10T11:49:46Z application_2: ConfigCheck: marking oldNmpSatpLocalRules as run
+2014-09-10T11:49:46Z application_2: ConfigCheck: marking oldNmpSatpRules as run
+2014-09-10T11:50:12Z application_2: execution of 'boot system load --ibmc' failed in context networking-ibmc[start]': failed to load iBMC in 2 tries.
+2014-09-10T11:50:12Z application_3: crond: crond (busybox 1.19.0) started, log level 8
+2014-09-10T11:50:13Z application_2: Using policy dir /etc/vmware/secpolicy
+2014-09-10T11:50:13Z application_2: Parsed all objects
+2014-09-10T11:50:13Z application_2: Objects defined and obsolete objects removed
+2014-09-10T11:50:13Z application_2: Parsed all domain names
+2014-09-10T11:50:13Z application_2: Domains defined and obsolete domains removed
+2014-09-10T11:50:13Z application_2: Domain policies parsed and syntax validated
+2014-09-10T11:50:13Z application_2: Constraints check for domain policies succeeded
+2014-09-10T11:50:13Z application_2: Domain policies set
+2014-09-10T11:50:13Z application_2: Parsed all the tardisk policy files
+2014-09-10T11:50:13Z application_2: Set all the tardisk labels and policy
+2014-09-10T11:50:13Z application_2: Parsed all file label mappings
+2014-09-10T11:50:13Z application_2: Set all file labels
+2014-09-10T11:50:13Z application_2: System security policy has been set successfully
+2014-09-10T11:50:16Z application_5: [17064] Begin '/usr/sbin/net-lacp ++group=lacpd', min-uptime = 1000, max-quick-failures = 100, max-total-failures = 100, bg_pid_file = ''
+2014-09-10T11:50:16Z application_5: Executing '/usr/sbin/net-lacp ++group=host/vim/vmvisor/lacpd'
+2014-09-10T11:50:17Z application_4: Warning: Line size is greater than expected size 242
+2014-09-10T11:50:17Z application_4: File microcode_amd_0x100fa0.bin does not contain a valid microcode update for any of the processors
+2014-09-10T11:50:17Z application_4: File microcode-1027.dat does not contain a valid microcode update for any of the processors
+2014-09-10T11:50:17Z application_4: File m4010676860C0001.dat does not contain a valid microcode update for any of the processors
+2014-09-10T11:50:17Z application_4: File m03106a5.dat does not contain a valid microcode update for any of the processors
+2014-09-10T11:50:17Z application_4: Warning: Directory /etc/vmware/microcode/ does not contain a valid microcode update for this processor
+2014-09-10T11:50:17Z application_2: execution of 'system module load --module vmci' failed in context vmci[start]': Unable to load module /usr/lib/vmware/vmkmod/vmci: Busy
+2014-09-10T11:50:17Z application_2: execution of 'system module load --module iscsi_linux' failed in context storage-drivers[start]': unknown module 'iscsi_linux'
+2014-09-10T11:50:18Z application_2: execution of 'boot networking dvs cache upgrade' failed in context restore-networking[start]': failed to read cache file /etc/vmware/dvsdata.db : Metadata read error
+2014-09-10T11:50:18Z application_2: VmKernelNicInfo::LoadConfig: Storing previous management interface:''
+2014-09-10T11:50:18Z application_2: GetManagementInterface: No interface was tagged for mgmt, selecting new one.
+2014-09-10T11:50:18Z application_2: SelectManagementInterface: No default route set, 0 vnics, tagged
+2014-09-10T11:50:18Z application_2: NetworkInfoImpl: Cannot update Management NIC, no suitable network connection found.
+2014-09-10T11:50:18Z application_2: NetworkInfoImpl: System is PXE-booted
+2014-09-10T11:50:18Z application_2: NetworkInfoImpl: vmnic2 is not bootable
+2014-09-10T11:50:18Z application_2: NetworkInfoImpl: vmnic2: FCoE not enabled
+2014-09-10T11:50:18Z application_2: NetworkInfoImpl: vmnic3 is not bootable
+2014-09-10T11:50:18Z application_2: NetworkInfoImpl: vmnic3: FCoE not enabled
+2014-09-10T11:50:18Z application_2: NetworkInfoImpl: vmnic6 is not bootable
+2014-09-10T11:50:18Z application_2: NetworkInfoImpl: vmnic6: FCoE not enabled
+2014-09-10T11:50:18Z application_2: NetworkInfoImpl: vmnic7 is not bootable
+2014-09-10T11:50:18Z application_2: NetworkInfoImpl: vmnic7: FCoE not enabled
+2014-09-10T11:50:18Z application_2: NetworkInfo: Setting boot uplink to vmnic4
+2014-09-10T11:50:18Z application_2: GetManagementInterface: No interface was tagged for mgmt, selecting new one.
+2014-09-10T11:50:18Z application_2: ProcessTagChanges: Refreshing DCUI after adding management vmknic
+2014-09-10T11:50:18Z application_2: SetTaggedManagementInterface: Writing vmk0 to the ManagementIface node
+2014-09-10T11:50:18Z application_2: GetManagementInterface: Tagging vmk0 as Management
+2014-09-10T11:50:18Z application_2: SetTaggedManagementInterface: Writing vmk0 to the ManagementIface node
+2014-09-10T11:50:18Z application_2: SetTaggedManagementInterface: Writing vmk0 to the ManagementIface node
+2014-09-10T11:50:18Z application_2: GetManagementInterface: Tagging vmk0 as Management
+2014-09-10T11:50:19Z application_2: SetTaggedManagementInterface: Writing vmk0 to the ManagementIface node
+2014-09-10T11:50:19Z application_2: GetManagementInterface: Tagging vmk0 as Management
+2014-09-10T11:50:19Z application_2: SetTaggedManagementInterface: Writing vmk0 to the ManagementIface node
+2014-09-10T11:50:19Z python: default hostname set, embedded cert should work.
+2014-09-10T11:50:19Z application_2: Successfully generated SSL certificates
+2014-09-10T11:50:19Z application_2: Successfully created RSA host keys
+2014-09-10T11:50:19Z application_2: Successfully created DSA host keys
+2014-09-10T11:50:19Z application_6: DriverMap: 60 maps loaded. 973 entries.
+2014-09-10T11:50:28Z application_2: execution of 'system coredump partition set --enable=true --smart' failed in context dump-partition[start]': Unable to smart activate a dump partition.  Error was: No suitable diagnostic partitions found..
+2014-09-10T11:50:28Z application_2: VmkCtl: Setting up the /tmp as bootbanks.
+2014-09-10T11:50:28Z application_2: VmkCtl: autoPartition not requested, skipping auto-partitioning
+2014-09-10T11:50:28Z application_2: Scanning 0 VFAT filesystems for scratch storage
+2014-09-10T11:50:28Z application_2: Scanning 0 VMFS filesystems for scratch storage
+2014-09-10T11:50:28Z application_2: Computed scratch location : /tmp/scratch - uw swap: 0
+2014-09-10T11:50:28Z application_2: using /tmp/scratch as /scratch
+2014-09-10T11:50:28Z application_2: Using /5.1.0 as /productLocker
+2014-09-10T11:50:28Z application_2: using /tmp/scratch as /locker
+2014-09-10T11:50:29Z application_7: starting pid 17187, tty '': '/sbin/services.sh start'
+2014-09-10T11:50:29Z root: application_7 Running DCUI start
+2014-09-10T11:50:29Z root: DCUI Enabling DCUI login: runlevel =
+2014-09-10T11:50:29Z root: application_7 Running usbarbitrator start
+2014-09-10T11:50:29Z usbarbitrator: No USB boot device found. Checking for configured reserved device.
+2014-09-10T11:50:29Z usbarbitrator: evicting objects on USB from OC
+2014-09-10T11:50:29Z usbarbitrator: unclaiming USB devices
+2014-09-10T11:50:29Z usbarbitrator: No reserved USB device found
+2014-09-10T11:50:29Z usbarbitrator: rescanning to complete removal of USB devices
+2014-09-10T11:50:30Z localcli: VmkCtl: Setting up the /tmp as bootbanks.
+2014-09-10T11:50:30Z watchdog-usbarbitrator: [17230] Begin '/usr/lib/vmware/bin/vmware-usbarbitrator ++min=0,max=25,group=uwdaemons -t', min-uptime = 60, max-quick-failures = 1, max-total-failures = 5, bg_pid_file = ''
+2014-09-10T11:50:30Z watchdog-usbarbitrator: Executing '/usr/lib/vmware/bin/vmware-usbarbitrator ++min=0,max=25,group=host/vim/vmvisor/uwdaemons -t'
+2014-09-10T11:50:31Z root: application_7 Running rhttpproxy start
+2014-09-10T11:50:31Z watchdog-rhttpproxy: [17266] Begin 'rhttpproxy ++min=0,swapscope=system,group=hostd -r /etc/vmware/rhttpproxy/config.xml', min-uptime = 60, max-quick-failures = 1, max-total-failures = 1000000, bg_pid_file = ''
+2014-09-10T11:50:31Z watchdog-rhttpproxy: Executing 'rhttpproxy ++min=0,swapscope=system,group=host/vim/vmvisor/hostd -r /etc/vmware/rhttpproxy/config.xml'
+2014-09-10T11:50:32Z root: application_7 Running storageRM start
+2014-09-10T11:50:32Z watchdog-storageRM: [17304] Begin '/sbin/storageRM ++group=sioc', min-uptime = 60, max-quick-failures = 1, max-total-failures = 1000000, bg_pid_file = ''
+2014-09-10T11:50:32Z watchdog-storageRM: Executing '/sbin/storageRM ++group=host/vim/vmvisor/sioc'
+2014-09-10T11:50:33Z root: application_7 Running sensord start
+2014-09-10T11:50:33Z watchdog-sensord: [17340] Begin '/usr/lib/vmware/bin/sensord ++min=0,max=10 -l', min-uptime = 60, max-quick-failures = 1, max-total-failures = 1000, bg_pid_file = ''
+2014-09-10T11:50:33Z watchdog-sensord: Executing '/usr/lib/vmware/bin/sensord ++min=0,max=10 -l'
+2014-09-10T11:50:34Z root: application_7 Running hostd start
+2014-09-10T11:50:34Z hostd-upgrade-config:INFO: Carrying some config entries from file "/etc/vmware/hostd/config.xml" to file "/etc/vmware/hostd/config.xml" [force=False]
+2014-09-10T11:51:12Z cimslp: Found 46 profiles in namespace interop
+2014-09-10T11:51:14Z python: autodeploy notify response -- 200 OK
+2014-09-10T11:51:14Z python: autodeploy has been notified
+2014-09-10T11:51:21Z sfcb-vmware_raw[18838]: IpmiIfcSelGetAll: no record count
+2014-09-10T11:53:09Z ImageConfigManager: [2014-09-10 11:53:09,399 HostImage INFO] Installer <class 'vmware.esximage.Installer.BootBankInstaller.BootBankInstaller'> was not application_7iated - reason: altbootbank is invalid: Error in loading boot.cfg from bootbank /bootbank: Error parsing bootbank boot.cfg file /bootbank/boot.cfg: [Errno 2] No such file or directory: '/bootbank/boot.cfg'
+2014-09-10T11:53:09Z ImageConfigManager: [2014-09-10 11:53:09,500 vmware.runcommand INFO] runcommand called with: args = '['/sbin/bootOption', '-rp']', outfile = 'None', returnoutput = 'True', timeout = '0.0'.
+2014-09-10T11:53:09Z ImageConfigManager: [2014-09-10 11:53:09,511 vmware.runcommand INFO] runcommand called with: args = '['/sbin/bootOption', '-ro']', outfile = 'None', returnoutput = 'True', timeout = '0.0'.
+2014-09-10T11:53:09Z ImageConfigManager: [2014-09-10 11:53:09,518 HostImage INFO] Installer <class 'vmware.esximage.Installer.LockerInstaller.LockerInstaller'> was not application_7iated - reason: Host booted from PXE server or there was an error to get boot type. LockerInstaller is not supported
+2014-09-10T11:53:26Z sfcb-vmware_int[18341]: --- handler could not derive port number
+2014-09-10T11:55:01Z application_3: crond: USER root pid 19063 cmd /sbin/hostd-probe
+2014-09-10T11:55:01Z syslog[19064]: starting hostd probing.
+2014-09-10T11:55:17Z syslog[19064]: hostd probing is done.
